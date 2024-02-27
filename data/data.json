@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Project One",
+            "mainBanner": "https://picsum.photos/1920/1000",
+            "company": "personal",
+            "description": "Celebrating Nike’s 50th anniversary in New York through archival storytelling. Digital screens mixed with lit imagery, historic details brought to life through brand DNA and oversized imagery.",
+            "sliderImg1": "https://picsum.photos/1200/803",
+            "sliderImg2": "https://picsum.photos/1200/802",
+            "sliderImg3": "https://picsum.photos/1200/801",
+            "sliderImg4": "https://picsum.photos/1200/804",
+            "responsibilities": "responsibilities of project",
+            "timeline": "timeline of project",
+            "technologies": "technologies used in project",
+            "extraImg1": "https://picsum.photos/650/750",
+            "extraImg2": "https://picsum.photos/650/751",
+            "link": "link to project if available",
+            "nextProjectId": "1"
+        },
+        {
+            "id": 2,
+            "name": "Project Two",
+            "main-banner": "https://picsum.photos/1920/1001",
+            "company": "nike",
+            "description": "description of project",
+            "slider-img-1": "img...",
+            "slider-img-2": "img...",
+            "slider-img-3": "img...",
+            "slider-img-4": "img...",
+            "responsibilities": "responsibilities of project",
+            "timeline": "timeline of project",
+            "technologies": "technologies used in project",
+            "extra-img-1": "img...",
+            "extra-img-2": "img...",
+            "link": "link to project if available",
+            "next-project-id": "1"
+        }
+    ]
+}

@@ -1,0 +1,414 @@
+@font-face {
+    font-family: neu-has-light;
+    src: url(../font/NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu-has-med;
+    src: url(../font/NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: neu-has-roman;
+    src: url(../font/NeueHaasDisplayRoman.ttf);
+}
+
+@font-face {
+    font-family: voyage-regular;
+    src: url(../font/madevoyagerpersonaluse-regular.otf);
+}
+.rev-grad{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.651),transparent 20%);
+}
+.logo-1{
+    z-index: 100;
+}
+nav {
+    font-family: neu-has-roman;
+}
+nav ul li a{
+    color: white;
+}
+
+.project-section{
+    min-height: 200vh;
+    width: 100%;
+    font-family: neu-has-roman;
+    background-color: #EFEAE3;
+}
+.section1{
+    background-size: cover;
+}
+.wrapper{
+    overflow: hidden;
+}
+.project-name{
+    position: absolute;
+    bottom: 50px;
+    z-index: 100;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.project-name button{
+    border: none;
+    text-transform: capitalize;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.project-name p{
+    line-height: 180px;
+}
+.project-name p:nth-child(2){
+    color: white;
+    text-transform: uppercase;
+    font-family: neu-has-med;
+    font-size: 200px;
+}.project-name p:nth-child(3){
+    color: white;
+    text-transform: uppercase;
+    font-family: neu-has-med;
+    font-size: 200px;
+}
+.project-anim-2{
+    scale: 1.2;
+    position: absolute;
+    top: 100px;
+    right: 30%;
+}
+
+
+.description{
+    height: 90vh;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    font-family: neu-has-med;
+    padding-left: 100px;
+    width: 1011px;
+    z-index: 1000!important;
+
+}
+.info{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.id1{
+    z-index: 100;
+    display: flex;
+    width: 100%; 
+    margin-bottom: 200px; 
+}.ed-1,.ed-2{
+    width: 50%;
+}
+.ed-2{
+    padding-right: 350px;
+}
+.id_heading{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.id_text{
+    font-family: neu-has-med;
+    font-size: 30px;
+}
+.id2{
+    z-index: 100;
+    display: flex;
+    width: 100%;
+    height: 750px;
+    justify-content: space-around;
+}
+.iimg1,.iimg2{
+    width: 650px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}.iimg1 img,.iimg2 img{
+    width: 100%;
+    height: 100%;
+}
+.iimg2{
+    position: relative;
+    top: 180px;
+}
+#main-slider-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.project-anim{
+    position: relative;
+    top: -200px;
+    z-index: 0;
+}
+
+.next-project{
+    width: 100%;
+    height: 145vh;
+    padding-top: 20vh;
+    padding: 250px 30px 30px 30px;
+}
+.next-p{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    transition: 0.5s linear;
+    position: relative;
+    overflow: hidden;
+}
+.elem21{
+    padding-left: 25px;
+    color: white;
+    z-index: 100;
+
+}
+.banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: .2s linear;
+}
+.next-p:hover > .banner{
+    scale: 1.03;
+}
+.next-p button{
+    text-transform: capitalize;
+    border: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    z-index: 100;
+}
+.next-p-1{
+    z-index: 100;
+
+    padding-left: 50px;
+    line-height:180px ;
+    color: white;
+    font-family: neu-has-med;
+    font-size: 180px;
+    text-transform: uppercase;
+}
+/* HORIZONTAL SLIDER CSS  */
+.slider-container{
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    height: 100vh;
+    min-width: 100%;
+    align-items: center;
+    width: fit-content;
+}
+.slider-container div{
+    margin-left:30px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 1200px;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-container div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1300px) {
+    .project-name p:nth-child(2){
+        font-size: 100px;
+    }    .project-name p:nth-child(3){
+        font-size: 100px;
+    }  .project-name p{
+        line-height: 100px;
+    }
+    .project-anim{
+        scale: .8;
+        right: -100px;
+        top: -250px;
+    }
+    .description{
+        font-size: 35px;
+        width: 680px;
+    }
+    .slider-container div{
+        width: 800px;
+    }
+    .ed-2{
+        padding-right: 200px;
+    }
+    .id_heading{
+        font-size: 15px;
+    }
+    .id_text{
+        font-size: 25px;
+    }
+    .iimg1{
+        width: 400px;
+    }
+    .iimg2{
+        width: 400px;
+    }
+    .id2{
+        height: 500px;
+    }
+    .next-p-1{
+        line-height: 120px;
+        font-size: 120px;
+    }
+
+}
+.hamburger{
+    color: rgba(255, 255, 255, 0.548);
+    border:1px solid rgba(255, 255, 255, 0.419);
+}
+#ham-div-1{
+    background-color: white;
+}
+#ham-div-2{
+    background-color: white;
+}
+@media screen and (max-width:600px) {
+    .section1{
+        height: 100vh;
+    }
+    .project-name{
+        right: 30px;
+        bottom: 30px;
+    }
+    .project-name p{
+        line-height: 55px;
+    }
+    .project-name button{
+        height: 43px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .project-name p:nth-child(2){
+        font-size: 55px;
+    }    .project-name p:nth-child(3){
+        font-size: 55px;
+    }
+    .project-anim{
+        scale: 1;
+
+        top: -120px;
+    }
+
+    .description{
+        padding-left: 20px;
+        font-size: 26px;
+        width: 400px;
+    }
+
+    .ed-1{
+        display: none;
+    }
+    .ed-2{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .id_heading{
+        font-size: 13px;
+    }
+    .id_text{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .iimg1,.iimg2{
+        width: 250px;
+    }
+    .id2{
+        height: 350px;
+    }
+    .next-project{
+        height: 110vh;
+    }
+    .next-p-1{
+        font-size: 50px;
+        line-height: 55px;
+        padding-left: 20px;
+    }
+    .elem21{
+        padding-left: 0px;
+    }
+    .next-p button{
+        height: 43px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .description{
+        font-size: 23px;
+        padding-right: 40px;
+    }
+    .slider-container div{
+        width: 380px;
+        height: 300px;
+    }
+    .ed-2{
+        padding-right: 0;
+    }
+    .id2{
+        padding: 0 20px;
+        flex-direction: column;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+    }
+    .iimg1,.iimg2{
+        width: 100%;
+        height: 500px;
+    }
+    .iimg2{
+        top: 50px;
+    }
+    .next-project{
+        height: 70vh;
+        padding: 100px 10px 10px 10px;
+    }
+
+}

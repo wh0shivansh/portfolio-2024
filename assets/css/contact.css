@@ -1,0 +1,146 @@
+@font-face {
+    font-family: neu-has-light;
+    src: url(../font/NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu-has-med;
+    src: url(../font/NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: neu-has-roman;
+    src: url(../font/NeueHaasDisplayRoman.ttf);
+}
+@font-face {
+    font-family: voyage-regular;
+    src: url(../font/madevoyagerpersonaluse-regular.otf);
+}
+nav{
+    background-color: #EFEAE3;
+    font-family: neu-has-roman;
+}
+.contact-section{
+    display: flex;
+    min-height: 110vh;
+    width: 100%;
+    font-family: neu-has-med;
+    background-color: #EFEAE3;
+}
+.cs-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+    align-items: center;
+}
+.cs-left div{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.cs-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    height: 100%;
+    line-height: 100px;
+    padding-top: 160px;
+    padding-right: 90px;
+}
+.cs-right p:nth-child(1){
+    font-size: 7rem;
+    text-transform: uppercase;
+}.cs-right p:nth-child(2){
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+.cs-right p:nth-child(3){
+    z-index: 100;
+    font-size: 1.7rem;
+    text-transform: lowercase;
+}
+.cs-right h2{
+    line-height: 40px;
+    cursor: pointer;
+}
+.cs-right h2:hover{
+    color: rgb(50, 50, 50);
+}
+.contact-anim{
+    margin-top: -290px;
+    opacity: .9;
+    scale: 0.7;
+}
+
+@media screen and (max-width:1000px) {
+    .contact-section{
+        flex-direction: column-reverse;
+    }
+    .cs-right{
+        width: 100%;
+        height: 100vh;
+    }
+    .cs-left{
+        width: 100%;
+        height: 100vh;
+    }
+    .cs-right p:nth-child(1){
+        font-size: 5rem;
+        text-transform: uppercase;
+    }.cs-right p:nth-child(2){
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+    .cs-right p:nth-child(3){
+        z-index: 100;
+        font-size: 1.2rem;
+        text-transform: lowercase;
+    }
+    .cs-right p{
+        line-height: 80px;
+        cursor: pointer;
+    }
+    .cs-right{
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:540px) {
+    .cs-right p:nth-child(1){
+        font-size: 3rem;
+        text-transform: uppercase;
+    }.cs-right p:nth-child(2){
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    .cs-right p:nth-child(3){
+        z-index: 100;
+        font-size: 1rem;
+        text-transform: lowercase;
+    }
+    .cs-right p{
+        line-height: 50px;
+        cursor: pointer;
+    }
+    .cs-right{
+        padding-top: 70px;
+    }
+    .cs-left{
+        padding-left: 0px;
+        width: 100%;
+        height:50%;
+        justify-content: center;
+
+    }
+    .cs-left div{
+        margin-top: -200px;
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+}
